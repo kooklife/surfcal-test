@@ -1,1 +1,10 @@
-{"content": "import React from 'react';\nimport { Calendar, Waves, Map, Bell, Lock } from 'lucide-react';\nimport { Card, CardContent, CardDescription, CardHeader, CardTitle } from \"@/components/ui/card\";\nimport { Button } from \"@/components/ui/button\";\n\nconst LandingPage = () => {\n  // Component code here\n  return (\n    <div>Initial landing page setup</div>\n  );\n};\n\nexport default LandingPage;", "encoding": "utf-8"}
+import React from 'react';
+import { Calendar, Waves, Map, Bell, Lock } from 'lucide-react';
+
+const LandingPage = () => {
+  return (
+    <div>Initial landing page</div>
+  );
+};
+
+export default LandingPage;
