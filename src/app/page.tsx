@@ -3,7 +3,7 @@ import { LandingPage } from '@/components/LandingPage'
 
 export default function Home() {
   return (
-    <main>
+    <main className="min-h-screen">
       <NavigationBar />
       <LandingPage />
     </main>

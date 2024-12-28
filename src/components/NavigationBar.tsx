@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from '@/components/ui/button';
 import { Calendar, Settings, User } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 export const NavigationBar = () => {
   return (
@@ -24,4 +24,4 @@ export const NavigationBar = () => {
       </div>
     </nav>
   );
-};
+}

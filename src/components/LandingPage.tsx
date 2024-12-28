@@ -1,34 +1,34 @@
 import React from 'react';
 import { Calendar, Waves, Map, Bell, Lock } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 
-const LandingPage = () => {
+export const LandingPage = () => {
   const features = [
     {
-      icon: <Calendar className="w-6 h-6" />,
+      icon: <Calendar className="h-6 w-6" />,
       title: "Smart Calendar Blocking",
       description: "Automatically block your calendar for perfect surf conditions"
     },
     {
-      icon: <Waves className="w-6 h-6" />,
+      icon: <Waves className="h-6 w-6" />,
       title: "Wave Forecasting",
       description: "Integration with Stormglass.io for accurate wave predictions"
     },
     {
-      icon: <Map className="w-6 h-6" />,
+      icon: <Map className="h-6 w-6" />,
       title: "Spot Management",
       description: "Save and monitor multiple surf spots using Nominatim"
     },
     {
-      icon: <Bell className="w-6 h-6" />,
+      icon: <Bell className="h-6 w-6" />,
       title: "Smart Notifications",
       description: "Get alerts when conditions match your preferences"
     }
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div>
       <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
         <div className="container mx-auto px-6 py-24">
           <div className="text-center">
@@ -61,5 +61,3 @@ const LandingPage = () => {
     </div>
   );
 };
-
-export default LandingPage;
